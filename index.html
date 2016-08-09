@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ajws7036</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Here goes all the bootstrap stuff--> 
 		<!-- Latest compiled and minified CSS -->
@@ -14,30 +16,81 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container-fluid">
-    		<div class="blurb">
-        		<h1>Hi there, I'm ajws7036!</h1>
-				<p>Also known as Drew Whitehurst. I figured I'd make a website to get back into coding and because I've always wanted this url. </p>
-				You can find me on 
-				<ul>
-					<li><a href="http://facebook.com/ajws7036">Facebook</a></li>
-					<li><a href="http://twitter.com/ajws7036">Twitter</a></li>
-				</ul>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:ajws7036@gmail.com">email</a></li>
-        		<li><a href="https://github.com/ajws7036">github.com/ajws7036</a></li>
-			</ul>
-		</footer>
-	</body>
+		 <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">ajws7036</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Main Page</a></li>
+            <li><a href="#about">Generation Music</a></li>
+            <li><a href="#contact">More</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WS Aerobyn Group LLC <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">aerobyn.com</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Placeholder</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>hi, I’m ajws7036.</h1>
+        <p>I’ve been around the web a bit, but this is kinda like my social resume. </p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Twitter</h2>
+          <p>Where I go to retweet stuff that I don’t come up with because I’m unoriginal.  </p>
+          <p><a class="btn btn-default" href="#" role="button">&#64;ajws7036 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Facebook</h2>
+          <p>Where most of my original content goes.  </p>
+          <p><a class="btn btn-default" href="http://facebook.com/ajws7036" role="button">/ajws7036 &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
+
